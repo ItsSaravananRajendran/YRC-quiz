@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YRC - College of Engineering Guindy</title>
+</head>
+
+ <script >
+  var status= "{{status}}"
+  if (status){
+    alert(status);
+  }
+</script>
+<link rel="stylesheet" href="static/css/index.css">
+
+<body onload="statusAlert();" >
+  <div class="login-page">
+    <div class="form">
+
+      <form class="login-form"  action="/start" method="POST">
+      <table style="width: 700px">
+          <tr>
+            <td>
+                <img src="static/img/AnnaUniv.png" style="width: 100px; height: 100px; " align="left">
+            </td>
+            <td>        
+                <h1 align="center"> YOUTH RED CROSS <br> College of Engineering, Guindy </h1>
+            </td>
+            <td>
+                <img src="static/img/yrc.jpg" style="width: 100px; height: 100px; " align="right">
+            </td>
+          </tr>
+      </table>
+      <table style="width: 700px;margin-left: 50px">
+        <tr>
+            <td>
+                <img src="static/img/logo%20(1).jpg" style="width: 150px; height: 150px" aling="right">
+            </td>
+            <td>
+                <p style="font-size: 90px; color: #43A047" align="left"> PRAKNAI</p>
+            </td>
+        </tr>    
+      </table>
+      <button>
+        Start the Quiz    
+      </button>
+      </form>
+    </div>
+  </div>
+
+</body>
+<script src='static/js/jquery.min.js'></script>
+<script  src="static/js/index.js"></script>
+</html>
